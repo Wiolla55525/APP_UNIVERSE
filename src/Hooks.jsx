@@ -11,7 +11,7 @@ export const useTemperature = (city) => {
 
     (async () => {
       try {
-        const currentWeatherFetch = await fetch(`https://api.meteo.lt/v1/places/${city}/forecasts/long-term`, {
+        const currentWeatherFetch = await fetch(`v1/places/${city}/forecasts/long-term`, {
           signal: myAbortController.signal,
         });
         const json = await currentWeatherFetch.json();
@@ -40,7 +40,7 @@ export const useCity = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(`https://api.meteo.lt/v1/places`)
+    fetch(`/v1/places`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(`This is an error: The status is ${response.status}`);
