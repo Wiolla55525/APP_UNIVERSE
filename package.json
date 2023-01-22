@@ -42,6 +42,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://api.meteo.lt"
-  // "homepage": "https://wiolla55525.github.io/APP_UNIVERSE/"
+  "proxy": "https://api.meteo.lt",
+  "homepage": "https://wiolla55525.github.io/APP_UNIVERSE/"
 }
