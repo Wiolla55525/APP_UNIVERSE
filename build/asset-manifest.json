@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/APP_UNIVERSE/static/css/main.facd9b37.css",
+    "main.js": "/APP_UNIVERSE/static/js/main.0f722839.js",
+    "static/media/pic1.jpg": "/APP_UNIVERSE/static/media/pic1.c2112f796257f5436018.jpg",
+    "static/media/pic5.jpg": "/APP_UNIVERSE/static/media/pic5.0f8e0ad55edfb711bb28.jpg",
+    "static/media/pic4.jpg": "/APP_UNIVERSE/static/media/pic4.397f25f4db79a8f6bfde.jpg",
+    "static/media/bcg1.jpg": "/APP_UNIVERSE/static/media/bcg1.9e6de03836750483e4a4.jpg",
+    "static/media/pic6.jpg": "/APP_UNIVERSE/static/media/pic6.bd38f2797d23c3ec5e60.jpg",
+    "static/media/pic2.jpg": "/APP_UNIVERSE/static/media/pic2.b8204363c687c85f00c9.jpg",
+    "static/media/pic3.jpg": "/APP_UNIVERSE/static/media/pic3.b8506246222b07eed1de.jpg",
+    "index.html": "/APP_UNIVERSE/index.html",
+    "main.facd9b37.css.map": "/APP_UNIVERSE/static/css/main.facd9b37.css.map",
+    "main.0f722839.js.map": "/APP_UNIVERSE/static/js/main.0f722839.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.facd9b37.css",
+    "static/js/main.0f722839.js"
+  ]
+}
