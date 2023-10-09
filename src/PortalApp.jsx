@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect, Fragment } from 'react';
-import { createPortal } from 'react-dom';
+import React, { useState, Fragment } from 'react';
 import ReactDom from 'react-dom';
 
 const backdrop = {

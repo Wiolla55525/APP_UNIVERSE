@@ -22,19 +22,12 @@ function App() {
         <Hero></Hero>
         {selectedApp ? (
           <SelectedApp appName={selectedApp} onBackClick={() => setApp(null)}>
-            {selectedApp === 'Counter' ? (
-              <Counter />
-            ) : selectedApp === 'Weather' ? (
-              <Weather />
-            ) : selectedApp === 'Inputs' ? (
-              <Inputs />
-            ) : selectedApp === 'Portal' ? (
-              <Portal />
-            ) : selectedApp === 'ReduxCounter' ? (
-              <Counter2/>
-            ) : (
-              <b>`I am a text child node for children prop`</b>
-            )}
+            {selectedApp === 'Counter' && <Counter/>}
+            {selectedApp === 'Weather' && <Weather/>}
+            {selectedApp === 'Inputs' && <Inputs/>}
+            {selectedApp === 'Portal' && <Portal/>}
+            {selectedApp === 'ReduxCounter' && <Counter2/>}
+            {!selectedApp && <b>`I am a text child node for children prop`</b>}
           </SelectedApp>
         ) : (
           <AppList setApplication={setApp} />

@@ -3,12 +3,12 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 export function Counter() {
-  const [counter, setCount] = useState(0);
+  const [counter, setCount] = useState(99);
 
   return (
-    <div className="counter text-center p-2 m-auto">
+    <div  className="counter text-center p-2 m-auto">
       <HeadingLevel3>Times clicked:</HeadingLevel3>
-      <p>{counter}</p>
+      <p data-testid={'counter-test'}>{counter}</p>
       <button
         data-testid={'button-test'}
         className="btn btn-dark"
